@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="57px" viewBox="0 0 139 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M73.1941265,30.1829467 C73.1728008,30.1370134 73.1492218,30.0922042 73.1222744,30.0485079 C70.1190832,25.2412997 66.7420307,20.3007768 63.0831797,15.3658522 L61.9470186,13.8243192 C57.5494352,7.83967237 52.565814,1.05626189 45.0718615,-1.7713828 C35.4840905,-5.38883156 23.8911839,-6.26043008 14.0609089,-4.10609257 C2.17048823,-1.49801953 -13.6369914,9.30615635 -12.3896836,22.8080121 C-11.9843913,27.1928718 -9.24951335,31.5048966 -4.88786758,34.6406185 C3.51996414,40.6846323 12.4082973,41.2795177 20.7914233,41.3702603 C22.0016785,41.3837053 23.2164402,41.3837053 24.4345588,41.3848295 C29.8268407,41.389315 35.4032482,41.3949133 40.8808445,42.4883205 C54.5844004,45.2229742 62.8597482,46.0956855 67.8411276,46.0956855 C72.5249931,46.0956855 74.2965919,45.3249133 74.9286727,44.6034471 C77.9453491,41.1641222 74.0125631,31.9866235 73.1941265,30.1829467 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone-se-5" transform="translate(-23.000000, -24.000000)">
+            <g id="logo" transform="translate(24.000000, 30.000000)">
+                <text id="Almejas" font-family="AmericanTypewriter-Semibold, American Typewriter" font-size="36" font-weight="500" fill="#69B9CA">
+                    <tspan x="0" y="36">Almejas</tspan>
+                </text>
+                <g id="Almejas-Copy-2" transform="translate(22.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask-Copy" fill="#69B9CA" fill-rule="nonzero" transform="translate(31.795629, 20.413144) rotate(-28.000000) translate(-31.795629, -20.413144) " xlink:href="#path-1"></use>
+                    <text mask="url(#mask-2)" font-family="AmericanTypewriter-Semibold, American Typewriter" font-size="36" font-weight="500" fill="#FFFFFF">
+                        <tspan x="-22" y="37">Almejas</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

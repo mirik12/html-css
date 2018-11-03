@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    max-width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 10px;
+}
+.flex-row-heading {
+    max-width: 100%;
+    min-height: 10vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.topline {
+    position: absolute;
+    width: 15%;
+    height: 10.3%;
+    background: rgb(72, 200, 176);
+}
+.baseline {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    margin-left: 5%;
+    background: url(../img/logo.png) 0% 0% / 80% no-repeat rgb(72, 200, 176);
+    background-repeat: no-repeat;
+}
+.centerline {
+    position: absolute;
+    margin-right: 15%;
+    float: right;
+    width: 55%;
+    height: 10.3%;
+}
+.vood {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 27%;
+}
+.vood p {
+    color: rgb(50, 54, 53);
+    margin-top: 5%;
+    font-size: 24px;
+}
+.brazil {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 51%;
+}
+.brazil p {
+    color: rgb(124, 121, 124);
+    margin-top: 8%;
+    font-size: 13px;
+    float: left;
+}
+.center-right {
+    position: absolute;
+    margin-left: 65%;
+    float: right;
+    width: 15%;
+    height: 10%;
+}
+.material-icons {
+    float: left;
+    padding-top: 15%;
+    margin-top: 6%;
+    background: url(../img/communication.png) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.event-amount {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-size: 9px;
+    background: rgb(255, 73, 53);
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.flex-end {
+    position: absolute;
+    margin-left: 85%;
+    float: right;
+    width: 13.5%;
+    height: 10.3%;
+    background: rgb(99, 12, 100);
+}
+.volume {
+    float: left;
+    width: 15%;
+    height: 38%;
+    margin-left: 10%;
+    margin-top: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background: url(../img/speaker.png) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.flex-end p {
+    color: white;
+    font-size: 15px;
+    float: left;
+    width: 15%;
+    height: 38%;
+    margin-left: 8%;
+    margin-top: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.flex-center {
+    max-width: 100%;
+    max-height: 41%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 254, 254);
+}
+.flex-col-1 {
+    width: 12.5em;
+    background: rgb(240, 237, 237);
+    padding: 10px 22px;
+    flex: 0 0 auto;
+}
+.user {
+    width: 20%;
+    height: 6%;
+    margin-top: 5%;
+    background: url(../img/user.png) 0% 0% / 50% no-repeat;
+    background-repeat: no-repeat;
+}
+.flex-col-1 a {
+    color: rgb(75, 74, 74);
+    font-size: 12px;
+    margin-left: 60%;
+}
+.collections {
+    width: 20%;
+    height: 6%;
+    margin-top: 1%;
+    background: url(../img/star.png) 0% 0% / 50% no-repeat;
+    background-repeat: no-repeat;
+}
+.subscription {
+    width: 20%;
+    height: 6%;
+    margin-top: 1%;
+    background: url(../img/check-mark.png) 0% 0% / 50% no-repeat;
+    background-repeat: no-repeat;
+}
+.settings {
+    width: 20%;
+    height: 6%;
+    margin-top: 1%;
+    background: url(../img/levels.png) 0% 0% / 50% no-repeat;
+    background-repeat: no-repeat;
+}
+.random {
+    width: 20%;
+    height: 6%;
+    margin-top: 1%;
+    background: url(../img/shuffle.png) 0% 0% / 50% no-repeat;
+    background-repeat: no-repeat;
+}
+.flex-col-2 {
+    width: 57.1em;
+    background: white;
+    flex: 0 0 auto;
+}
+.today-song {
+    width: 100%;
+    height:40%;
+    text-align: center;
+    background: url(../img/today-song.jpg) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.today-song p {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    color: white;
+    padding-top: 4%;
+}
+.today-song button {
+    width: 10%;
+    background:  0% 0% / 24px rgba(255, 255, 255, 0.55);
+    padding: 8px;
+    border-radius: 20px;
+}
+.today-song p {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    color: white;
+    padding-top: 4%;
+}
+.today-song a {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    color: rgb(223, 219, 219);
+    padding-top: 4%;
+}
+.flex-col-3 {
+    width:  11.1em;
+    background: rgb(156, 20, 158);
+    flex: 0 0 auto;  
+}
+    .flex-col-3 p {
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        color: rgb(223, 219, 219);
+        width:20%;
+        height: 6%;
+        padding-top: 4%;
+        padding-left: 15%;
+    }
+    .box-1 {
+    background: rgba(36, 36, 36, 0.24);
+    background-size: 77%;
+    width: 61%;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding: 0 px;
+    /* border: rgba(36, 36, 36, 0.24); */
+    box-sizing: border-box;
+    }
+        .vol-1 {
+            background:rgba(0, 0, 0, 0.16);
+            width: 65%;
+            height: 1.5%;
+        }
+        .vol-2 {
+            background:rgba(0, 0, 0, 0.16);
+            width: 55%;
+            height: 1.5%;
+        }
+        .vol-3 {
+            background:rgba(0, 0, 0, 0.16);
+            width: 80%;
+            height: 1.5%;
+        }
+        .vol-4 {
+            background:rgba(0, 0, 0, 0.16);
+            width: 65%;
+            height: 1.5%;
+        }
+
+        table.text  {
+            width:  100%; /* Ширина таблицы */
+            border-spacing: 0; /* Расстояние между ячейками */
+           }
+           table.text td {
+            font-family: Montserrat, sans-serif;
+            font-size: 15px;
+            color: rgb(223, 219, 219);
+            width: 20%;
+            height: 6%;
+            padding-top: 4%;
+            padding-left: 15%;
+            vertical-align: top;
+           }
+           td.rightcol { /* Правая ячейка */ 
+            
+           }
+   
+.middle {
+    max-width: 100%;
+    min-height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.middle-col-1 {
+    width: 12.5em;
+    background: rgb(240, 237, 237);
+    flex: 0 0 auto;
+}
+.middle-col-2 {
+    width: 57.1em;
+    background: white;
+    flex: 0 0 auto;
+}
+.middle-col-3 {
+        width:  11.1em;
+        background: rgb(156, 20, 158);
+        flex: 0 0 auto;   
+}
+.mid {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 3%;
+}
+.mid p {
+    color: rgb(50, 54, 53);
+    margin-top: 5%;
+    font-size: 24px;
+}
+.awesome {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 12%;
+}
+.awesome p {
+    font-family: Muli, sans-serif;
+    color: rgb(124, 121, 124);
+    margin-top: 7%;
+    font-size: 13px;
+    float: left;
+}
+.bottom-flex {
+    max-width: 100%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-col-1 {
+    width: 12.5em;
+    background: rgb(240, 237, 237);
+    flex: 0 0 auto;
+}
+.bottom-col-2 {
+    display: flex;
+    flex-direction: row;
+    width: 57.1em;
+    background: white;
+}
+.bottom-col-3 {
+        width:  11.09em;
+        background: rgb(156, 20, 158);
+        flex: 0 0 auto;
+}
+.block-1 {
+    width: 17%;
+    height: 100%;
+    margin-left: 2%;
+    background: url(../img/song-5.png) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.block-2 {
+    width: 17%;
+    height: 100%;
+    margin-left: 2%;
+    background: url(../img/song-4.png) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.block-3 {
+    width: 17%;
+    height: 100%;
+    margin-left: 2%;
+    background: url(../img/song-3.png) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.block-4 {
+    width: 17%;
+    height: 100%;
+    margin-left: 2%;
+    background: url(../img/song-2.png) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.block-5 {
+    width: 17%;
+    height: 100%;
+    margin-left: 2%;
+    background: url(../img/song-1.png) 0% 0% / 100% no-repeat;
+    background-repeat: no-repeat;
+}
+.bottom-white {
+    max-width: 100%;
+    max-height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.white-col-1 {
+    width: 12.5em;
+    background: rgb(240, 237, 237);
+    flex: 0 0 auto;
+}
+.white-col-2 {
+    display: flex;
+    flex-direction: row;
+    width: 69.45em;
+    background: white;
+}
+.white-col-3 {
+        width:  11.09em;
+        background: rgb(156, 20, 158);
+        flex: 0 0 auto;
+}

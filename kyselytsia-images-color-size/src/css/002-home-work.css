@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1024px;
+    
+}
+
+.page {
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    
+}
+
+.header, .welcome-main, footer {
+    display: inline-flex;
+    flex-direction: row;
+        
+}
+
+.header {
+
+}
+
+.welcome-main {
+    justify-content: flex-end;
+}
+
+/* Header................................................ */
+
+/* .logo {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.logo img {
+    width: 50%;
+    padding: 5px 0px 0px 0px;
+}
+
+.navigation {
+    margin: 15px;
+    display: flex;
+    
+    /* 
+    justify-content: center;
+    align-items: center; */
+}
+
+.navigation a {
+    color: black;
+    font-size: 18px;
+    font-weight: 550;
+    margin: 35px;
+
+    /* align-self: auto;
+    text-align: center; */
+    
+}
+/*MAIN-------------------------------------------------*/
+
+.welcome-main {
+    display: flex;
+    background: #39C0C3;
+}
+
+.box-1 {
+    align-items: center;
+    text-align: center;
+}
+
+.box-1 article {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.box-2 {
+    flex: 3;
+}
+ .picture {
+     width: 100%
+ }
+
+.welcome-main h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.welcome-main p {
+    color: black;
+    font-size: 24px;
+}
+
+
+/*BUTTON-------------------------------------------------*/
+.button {
+	height: 57px;
+	width: 240px;
+    background: white;
+    box-shadow: 2px 2px 1px rgba(128, 128, 128, 0.47);
+    
+}
+
+.button-section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.button a{
+	color: black;
+	display: block;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+	    
+    /* text-align: center;
+    padding-top: 3px; */
+}
+
+/*FOOTER-------------------------------------------------*/
+footer h2{
+    background: rgba(19, 20, 21, 0.7);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px solid rgba(0, 0, 0, 0.34)
+}

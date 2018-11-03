@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(1, 78, 20);
+    display: flex;
+    max-width:100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background: black;
+    width: 60em;
+    height:85vh;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    background: url(../img/form-side.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25em;
+    height:100%;
+    display: flex;
+    float: left;    
+}
+.right {
+    background: white;
+    width: 35em; 
+    height: 100%;
+    padding: 40px; 
+}
+.right h1 {
+    font-weight: 900;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.right h2 {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 3%;
+}
+.right h3 {
+    padding-top: 10%;
+    font-weight: 900 16px 'Playfair Display', serif;;
+    margin-top: 3%;
+}
+.right h4 {
+    
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2%;
+}
+.right p {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 13%;  
+}
+.facebook-button {
+    float: left;
+    font: 400 12px 'Playfair Display', serif;
+    text-decoration: none;
+    margin-left: 4%;
+    margin-top: 4%;
+    background: #4469B0;
+    color: white;
+    width: 35%;
+    height: 6%;
+    padding-left: 15px;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: 20px; 
+}
+
+.facebook-button:hover {
+    color:white;
+    background: rgba(68, 105, 176, 0.78);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+}
+.twitter-button {
+    float: right;
+    font: 400 12px 'Playfair Display', serif;
+    text-decoration: none;
+    margin-right: 20%;
+    margin-top: 4%;
+    background: #106FBC;
+    color: white;
+    width: 35%;
+    height: 6%;
+    padding-left: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: 20px;   
+}
+.twitter-button:hover {
+    color:white;
+    background:rgba(16, 111, 188, 0.78);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+}
+
+.email {
+    width:10%;
+    height:10%;
+    margin-left:-35%;
+    margin-top:2%;
+    padding-left:20px;
+    display: flex;
+    flex-direction: row;
+}
+.email input {
+    font: 400 12px 'Playfair Display', serif;
+    margin: 10px;
+    border-bottom-color: #C7C4C5;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-left: 500%;
+    padding:5px;
+    width: 700%;  
+}
+.password {
+    width:100%;
+    height:10%;
+    margin-left:35%;
+    margin-top:-200%;
+    padding-left:20px;
+    
+}
+.password input {
+    font: 400 12px 'Playfair Display', serif;
+    margin: 10px;
+    background: black;
+    border-bottom-color: #C7C4C5;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-left: 500%;
+    padding:5px;
+    width: 6000%;   
+}
+
+.radio input {
+    font: 700 9px 'Playfair Display', serif;
+    margin: 10px;
+    border-bottom-color: #C7C4C5;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    padding:5px;
+}
+checked {
+    background: black;
+}
+.check input {
+    color: rgba(0, 0, 0, 0.24);
+    font: 700 9px rgba(0, 0, 0, 0.24);
+    margin-top: 30px;
+    border-bottom-color: #C7C4C5;
+    padding:5px;
+    box-sizing: 10px;
+}
+.submit {
+    
+cursor: pointer;
+border-radius: 10px; 
+    margin-top:4%;
+    margin-right: 0%;
+    width:30%;
+    height:6vh;
+}
+.submit input {
+    color: white;
+    font-weight:700 11px 'Lato', sans-serif;
+    
+    background: #4469B0;
+    width:100%;
+    height:6vh;
+    border:none;
+    border-radius: 20px;
+}
+.submit input:hover {
+    color:white;
+    background:rgba(16, 111, 188, 0.78);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+}

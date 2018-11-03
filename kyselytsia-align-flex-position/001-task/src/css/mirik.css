@@ -1,0 +1,19 @@
+.tool-bar {
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: relative;
+  
+}
+
+.side-bar {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: black;
+  left:0px;
+  z-index: -1;
+  transition:ease-in .15s;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}

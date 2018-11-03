@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    font-family: 'Cormorant Garamond', serif;
+}
+li {
+    list-style: none;
+    padding: 25px;
+}
+.page{
+    background: center / cover no-repeat url(../assets/back.jpg) ;
+    filter: blur(0px);
+    position: relative;
+    margin: auto;
+    max-width: 900px;
+    min-height: 100vh;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    height: 80px;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left:25px;
+}
+ a {
+    text-decoration: none;
+}
+.top{
+    margin: auto;
+    margin-right: 100px;
+ }
+ ul{
+     display: flex;
+     flex-direction: row;
+ }
+ main{
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+.conteiner{
+    position: relative;
+    
+    height: 100vh;
+}
+.alme{
+    background: rgba(63, 63, 71, .77);
+    position: relative;
+width:500px ;
+height: 70px;
+top: 50px;
+left: 100px;
+}
+.alme p {
+    color: white;
+    font: 700 48px 'Cormorant Garamond', serif;;
+    padding: 10px;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-content: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items:flex-end;
+}
+.price{
+    height: 300px;
+    width: 33%;
+    background: rgba(255, 255, 255, .5);
+    margin: 0px;
+}
+.price p{
+    font-size: 8px;
+}
+.beer{
+    height: 215px;
+    width: 33%;
+    background:rgba(255, 255, 255, .5);
+    margin-left: 10px;
+}
+.beer p{
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+}
+.button {
+    background: red;
+    color: #333F44;
+    padding-top: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.lobster{
+    height: 215px;
+    width: 33%;
+    background:rgba(255, 255, 255, .5);
+    margin-left: 10px;
+}
+.lobster p{
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+}
+.footer {
+    display:none;
+}
+.footer button {
+    background: white;
+    color: #333F44;
+    padding-top: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+@media (min-width:768px) and (max-width:1023px){
+    .page{
+        height: 100vh;
+    }
+    main{
+        height: auto;
+        overflow-y: visible;
+        display: flex;
+        justify-content: space-between;
+    }
+    .conteiner{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .menu {
+        flex-wrap: wrap;
+    }
+    .alme{
+        width: 300px;
+        margin: 20px 20px;
+    }
+    .price{
+        width: 49%;
+    }
+    .beer{
+        width: 49%;
+    }
+    .lobster{
+        width: 400px;
+     margin-top: 20px;
+    }
+}
+@media (min-width:320px) and (max-width:568px){
+    header {
+        display:none;
+    }
+    .page{
+        height: 100vh;
+    }
+    main{
+        height: auto;
+        overflow-y: visible;
+        display: flex;
+        justify-content: space-between;
+    }
+    .conteiner{
+        width: 100%;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .menu {
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+        height:80x;
+        
+    }
+    .logo {
+        
+        top: 3px;
+        left:25px;
+        width:100%;
+        height:80px;
+    }
+    .alme{
+        width: 300px;
+        left:10px;
+        height: 140px;
+        
+    }
+    .price{
+        width: 500px;
+        height:300px;
+        margin-top: -40px;
+    }
+    .beer{
+        display:none;
+    }
+    .lobster{
+        display:none;
+    }
+    .footer {
+        display: flex;
+    }
+    .footer button {
+        background: white;
+        color: #333F44;
+        padding-top: 3px;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,421 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: black;
+    max-width: 100%;
+    height: 174vh;
+    margin: auto;
+}
+.main {
+    background: black;
+    max-width: 89%;
+    margin-left:5%;
+    margin-right:5%;
+    height: 150vh;
+    margin: auto;
+}
+header {
+        background: #323232;
+        max-width: 100%;
+        min-height: 10vh;
+        text-align: center;
+        }
+        .color {
+            color: white;
+          }
+          
+        header h1 {
+            font: 700  48px "Roboto Condensed", sans-serif;
+            color:#a83037;
+            text-align: center;
+            margin: 24px;
+        }
+        .button {
+        float:left;
+        font: 700 48px "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 15%;
+        margin-top:0%;
+        background: #323232;
+        cursor: pointer;
+
+    }
+    .button:hover {
+        background: #fae9e9;
+        box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+    }
+    header h2 {
+        word-spacing: 50px;
+        color:white;
+        font: 400 16px "Roboto Condensed", sans-serif;
+        padding-top:2%;
+        padding-right: 25%;
+
+    }
+    .but {
+        font: 400 16px "Roboto Condensed", sans-serif;
+        text-decoration: none;
+        margin-left: 4%;
+        margin-top:0%;
+        background: #323232;
+        cursor: pointer;
+    }
+    .but:hover {
+        background: #fae9e9;
+        color: black;
+        box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+    }
+.center {
+    background: white;
+    max-width: 100%;
+    min-height: 128vh;
+    text-align: center;
+    }
+    .center-top {
+        background: url(../img/woman.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 64vh;
+    text-align: center;
+    }
+    h1 {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        color:#2f2f2f;
+        text-align: center;
+    }
+    .text {
+        margin-bottom: 12px;
+    }
+    h1 .text:first-child {
+        font-weight: 400 48px "Roboto Condensed", sans-serif;
+        color:white;
+        text-align: left;
+        margin-left: 4%;
+        padding-top: 8%;
+        letter-spacing: 0px;
+    }   
+    h1 .text:nth-child(2) {
+        font-weight: 550;
+        font-size: 24px;
+        color:black;
+        text-align: left;
+        margin-left: 4%;
+        margin-top:-1%;
+        letter-spacing: -1px;
+    }
+    
+    h1 .text:last-child {
+        font-weight: 200;
+        font-size: 36px;
+        color:white;
+        text-align: left;
+        margin-left: 4%;
+        margin-top:-1%;
+        letter-spacing: 1px;
+    }
+    .center-button {
+        float:left;
+        font: 550 16px "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 4%;
+        margin-top:4%;
+        background: #a83037;
+        color: white;
+        width:10%;
+        height:8%;
+        padding:10px;
+        cursor: pointer;
+        letter-spacing: -1px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.30);
+    }
+
+.center-bottom{
+    background: #b3b3b4;
+    max-width: 100%;
+    min-height: 90vh; 
+    margin-top:-1%; 
+    display: flex;
+    flex-direction: row;
+}
+.flex-col-1 {
+    width: 33%;
+    height: 90vh;
+    background: #b3b3b4;
+    padding: 10px 22px;
+    flex: 0 0 auto;
+}
+    .pic1 {
+        background: url(../img/dress1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width:90%;
+        height: 45%;
+        margin-left:5%;
+        margin-right:5%;
+        margin-top:10%;
+    }
+    .flex-col-1 h3 {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        font-size:16px;
+        color:black;
+        text-align: left;
+        margin-left:5%;
+        margin-top:3%;  
+}
+    .flex-col-1 p {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        font-size:11px;
+        color:black;
+        text-align: left;
+        margin-left:5%;
+        margin-top:3%;
+    }
+            .flex-button1{
+                float:left;
+                font: 550 12px "Roboto Condensed", sans-serif;
+                text-decoration: none;
+                margin-left: 5%;
+                margin-top:5%;
+                background: #a83037;
+                color: white;
+                width:25%;
+                height:6%;
+                padding-top:9px;
+                cursor: pointer;
+                box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.30);
+            }
+            .flex-button1:hover {
+            background: #fae9e9;
+            color: black;
+            box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+        }
+.flex-col-2 {
+    width: 33%;
+    height: 90vh;
+    background: #b3b3b4;
+    flex: 0 0 auto;
+}
+    .pic2 {
+        background: url(../img/dress2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width:85%;
+        height: 43%;
+        margin-left:8%;
+        margin-right:5%;
+        margin-top:11.5%;
+    }
+    .flex-col-2 h3 {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        font-size:16px;
+        color:black;
+        text-align: left;
+        margin-left:9%;
+        margin-top:3%;  
+}
+    .flex-col-2 p {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        font-size:11px;
+        color:black;
+        text-align: left;
+        margin-left:9%;
+        margin-top:3%;
+    }
+            .flex-button2{
+                float:left;
+                font: 550 12px "Roboto Condensed", sans-serif;
+                text-decoration: none;
+                margin-left: 9%;
+                margin-top:5%;
+                background: #a83037;
+                color: white;
+                width:25%;
+                height:6%;
+                padding-top:9px;
+                cursor: pointer;
+                box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.30);
+            }
+            .flex-button2:hover {
+            background: #fae9e9;
+            color: black;
+            box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+        }
+.flex-col-3 {
+    width:  34%;
+    height: 90vh;
+    background: #b3b3b4;
+    flex: 0 0 auto;  
+}
+  .pic3 {
+        background: url(../img/dress3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width:85%;
+        height: 43%;
+        margin-left:8%;
+        margin-right:5%;
+        margin-top:11.5%;
+  }
+            .flex-col-3 h3 {
+                font-family: "Roboto Condensed", sans-serif;
+                font-weight: 700;
+                font-size:16px;
+                color:black;
+                text-align: left;
+                margin-left:9%;
+                margin-top:3%;  
+            }
+            .flex-col-3 p {
+                font-family: "Roboto Condensed", sans-serif;
+                font-weight: 700;
+                font-size:11px;
+                color:black;
+                text-align: left;
+                margin-left:9%;
+                margin-top:3%;
+            }
+                    .flex-button3{
+                        float:left;
+                        font: 550 12px "Roboto Condensed", sans-serif;
+                        text-decoration: none;
+                        margin-left: 9%;
+                        margin-top:5%;
+                        background: #a83037;
+                        color: white;
+                        width:25%;
+                        height:6%;
+                        padding-top:9px;
+                        cursor: pointer;
+                        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.30);
+                    }
+                    .flex-button3:hover {
+                    background: #fae9e9;
+                    color: black;
+                    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+                }
+footer {
+    background: #323232;
+        max-width: 100%;
+        min-height: 10vh;
+        text-align: center;
+}
+.color {
+    color: white;
+  }
+  
+footer h1 {
+    font: 700  48px "Roboto Condensed", sans-serif;
+    color:#a83037;
+    text-align: center;
+}
+.button {
+float:left;
+font: 700 48px "Roboto Condensed", sans-serif;
+text-transform: uppercase;
+text-decoration: none;
+margin-left: 15%;
+margin-top:0%;
+margin-top:3px;
+background: #323232;
+cursor: pointer;
+
+}
+.button:hover {
+background: #fae9e9;
+box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+}
+.color:hover{
+    color:black;
+}
+.label {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    margin-left: 57%;
+    
+    }
+.insta{
+    float:right;
+    background: url(../img/instagram-logo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 8%;
+        height: 100%;
+        margin-top: 7%; 
+        margin-left: 5%;  
+}
+.twit {
+    float:right;
+    background:  url(../img/twitter-logo-button.png);
+background-size: 100%;
+background-repeat: no-repeat;
+width: 8%;
+height: 100%;
+margin-top: 7%;
+margin-left: 50%;
+}
+
+
+
+
+.marker {
+    float:right;
+    width:100%;
+    height:100%;
+}
+.icon {
+    float: right;
+    width: 9%;
+    height: 11%;
+}
+img {
+    background-size: 100%;
+    width:100%;
+    height:100%;
+    float:right;
+    
+}
+.icon:hover{
+    
+    color: black;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+}
+.icon:hover table {
+    
+    color: black;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.30);
+    display: block;
+}
+table {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none;
+    float:left;
+    margin-top:2%;
+    margin-left: -5%;
+    width:7%;
+    height:11%;
+}
+tbody td{
+    font-weight: 400;
+    font-size:11px;
+    color: #a83037;
+}
+.color-grey {
+    color: #565658;
+    font-weight: 400;
+    font-size:11px;
+    
+}
